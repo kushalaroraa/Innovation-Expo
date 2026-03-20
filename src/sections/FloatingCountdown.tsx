@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const TARGET_DATE = new Date("2026-03-21T00:00:00");
+const TARGET_DATE = new Date("2026-03-26T17:00:00");
 const FORMS_LINK = "https://forms.office.com/r/Q4dmT4XJs3";
 
 function getCountdown() {
@@ -55,7 +55,7 @@ export default function FloatingCountdown() {
           </p>
 
           <p className="text-gray-400 text-xs mt-1 sm:mt-2">
-            Starting 21 March @ 12:00 AM
+            Closing 26 March @ 5:00 PM
           </p>
         </div>
         

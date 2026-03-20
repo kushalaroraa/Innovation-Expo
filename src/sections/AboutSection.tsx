@@ -49,7 +49,7 @@ export default function AboutSection() {
 
             <p className="text-lg text-gray-600 leading-relaxed mb-5">
               Imagine a place where ideas are not just discussed — but built, showcased, and brought to life.
-Innovation Expo 2026 is a platform where students present real projects and pitch their ideas in a TEDx-style format to industry experts from companies like <b>Samsung</b>, <b>Ixigo</b>. <br></br>
+Innovation Expo 2026 is a platform where students present real projects and pitch their ideas in a TEDx-style format to industry experts from companies like <b>Samsung</b>, <b>Ixigo</b>, and <b>American Express</b>. <br></br>
 Participants present directly to a panel of expert industry judges, receive constructive feedback, gain professional exposure, and compete for recognition.
 
             </p>

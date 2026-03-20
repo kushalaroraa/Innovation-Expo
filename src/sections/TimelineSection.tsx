@@ -11,8 +11,8 @@ const timelineEvents = [
     link: "Register Now"
   },
   {
-    date: "27 March, 2026",
-    title: "Registrations Close",
+    date: "26 March, 2026",
+    title: "Registrations Close at 5 pm",
     description: "Last chance to join! Make sure your team and idea are submitted before the deadline.",
     link: "Submit Team"
   },

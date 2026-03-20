@@ -209,6 +209,9 @@ export default function DevelopersSection() {
                 ★ Lead Developer
               </div>
               <p className="font-black text-gray-900">{leadDeveloper.name}</p>
+              <div className="text-orange-500 text-sm font-medium flex items-center justify-center gap-1 mt-0.5">
+                {leadDeveloper.icon}
+              </div>
             </div>
           </motion.a>
 
