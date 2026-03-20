@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import { Calendar, Globe, MapPin, Mail, ArrowUp, CheckCircle, ArrowRight, Code2, Cpu, Layers, Sparkles } from 'lucide-react';
+import { MapPin, Mail } from 'lucide-react';
+import ieeeWieLogo from '../assets/logo.png';
 
 export default function FooterSection() {
   return (
@@ -8,8 +9,8 @@ export default function FooterSection() {
           <div className="grid md:grid-cols-3 gap-12 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-18 h-18 rounded-full overflow-hidden">
-                  <img src={"src/assets/logo.png"} alt="IEEE WIE Logo" className="w-full h-full object-contain" />
+                <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                  <img src={ieeeWieLogo} alt="IEEE WIE Logo" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <h3 className="font-bold text-lg">IEEE WIE</h3>

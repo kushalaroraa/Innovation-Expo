@@ -1,28 +1,33 @@
 import { motion } from "framer-motion";
 import { FaLinkedin } from "react-icons/fa";
+import divayImg from "../assets/divayy.jpeg";
+import nehalImg from "../assets/nehal.jpeg";
+import parasImg from "../assets/paras.jpeg";
+import akanshaImg from "../assets/akansha.jpeg";
+import kushalImg from "../assets/kushal.png";
 
 const developers = [
   {
     name: "Divay Marwaha",
-    image: "src/assets/divayy.jpeg",
+    image: divayImg,
     icon: <FaLinkedin className="w-5 h-5" />,
     link: "https://www.linkedin.com/in/divaymarwaha",
   },
   {
     name: "Nehal Mishra",
-    image: "src/assets/nehal.jpeg",
+    image: nehalImg,
     icon: <FaLinkedin className="w-5 h-5" />,
     link: "https://www.linkedin.com/in/nehal-mishra-044602322/",
   },
   {
     name: "Paras Jain",
-    image: "src/assets/paras.jpeg",
+    image: parasImg,
     icon: <FaLinkedin className="w-5 h-5" />,
     link: "https://www.linkedin.com/in/paras-jain02",
   },
   {
     name: "Akansha Yadav",
-    image: "src/assets/akansha.jpeg",
+    image: akanshaImg,
     icon: <FaLinkedin className="w-5 h-5" />,
     link: "https://www.linkedin.com/in/ak8nksha/",
   },
@@ -31,7 +36,7 @@ const developers = [
 const leadDeveloper = {
   name: "Kushal Arora",
   role: "Lead Developer",
-  image: "src/assets/kushal.png",
+  image: kushalImg,
   icon: <FaLinkedin className="w-6 h-6" />,
   link: "https://www.linkedin.com/in/kushal-arora-666869300/",
 };
@@ -81,18 +86,12 @@ export default function DevelopersSection() {
                   alt={dev.name}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-
                 <div className="absolute inset-0 rounded-full bg-white/8 group-hover:bg-white/5 transition-all duration-300" />
-
                 <div
                   className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-                  style={{
-                    boxShadow:
-                      "inset 0 0 0 1.5px rgba(249,115,22,0.35)",
-                  }}
+                  style={{ boxShadow: "inset 0 0 0 1.5px rgba(249,115,22,0.35)" }}
                 />
               </div>
-
               <div className="text-center">
                 <p className="font-bold text-gray-900 text-sm">{dev.name}</p>
                 <p className="text-orange-500 text-xs font-medium flex items-center justify-center gap-1 mt-0.5">
@@ -128,21 +127,14 @@ export default function DevelopersSection() {
                 alt={leadDeveloper.name}
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
-
               <div className="absolute inset-0 rounded-full bg-white/8 group-hover:bg-white/5 transition-all duration-300" />
-
-              <div
-                className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-              />
+              <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
             </div>
-
             <div className="text-center">
               <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs px-3 py-1 rounded-full font-semibold mb-1.5">
                 ★ Lead Developer
               </div>
-              <p className="font-bold text-gray-900 text-md">
-                {leadDeveloper.name}
-              </p>
+              <p className="font-bold text-gray-900 text-md">{leadDeveloper.name}</p>
               <div className="text-orange-500 text-sm font-medium flex items-center justify-center gap-1 mt-0.5">{leadDeveloper.icon}</div>
             </div>
           </motion.a>
@@ -175,14 +167,9 @@ export default function DevelopersSection() {
                   alt={dev.name}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-
                 <div className="absolute inset-0 rounded-full bg-white/8 group-hover:bg-white/5 transition-all duration-300" />
-
-                <div
-                  className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-                />
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
               </div>
-
               <div className="text-center">
                 <p className="font-semibold text-gray-900 text-sm">{dev.name}</p>
                 <p className="text-orange-500 text-xs font-medium flex items-center justify-center gap-1 mt-0.5">
@@ -211,25 +198,17 @@ export default function DevelopersSection() {
               style={{
                 backdropFilter: "blur(14px)",
                 background: "rgba(255,255,255,0.40)",
-                boxShadow:
-                  "0 0 22px rgba(249,115,22,0.14), 0 8px 24px rgba(0,0,0,0.08)",
+                boxShadow: "0 0 22px rgba(249,115,22,0.14), 0 8px 24px rgba(0,0,0,0.08)",
               }}
             >
-              <img
-                src={leadDeveloper.image}
-                alt={leadDeveloper.name}
-                className="w-full h-full object-cover"
-              />
+              <img src={leadDeveloper.image} alt={leadDeveloper.name} className="w-full h-full object-cover" />
               <div className="absolute inset-0 rounded-full bg-white/8" />
             </div>
-
             <div className="text-center">
               <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs px-3 py-1 rounded-full font-semibold mb-1">
                 ★ Lead Developer
               </div>
-              <p className="font-black text-gray-900">
-                {leadDeveloper.name}
-              </p>
+              <p className="font-black text-gray-900">{leadDeveloper.name}</p>
             </div>
           </motion.a>
 
@@ -251,18 +230,12 @@ export default function DevelopersSection() {
                 style={{
                   backdropFilter: "blur(10px)",
                   background: "rgba(255,255,255,0.30)",
-                  boxShadow:
-                    "0 0 12px rgba(249,115,22,0.10), 0 4px 14px rgba(0,0,0,0.07)",
+                  boxShadow: "0 0 12px rgba(249,115,22,0.10), 0 4px 14px rgba(0,0,0,0.07)",
                 }}
               >
-                <img
-                  src={dev.image}
-                  alt={dev.name}
-                  className="w-full h-full object-cover"
-                />
+                <img src={dev.image} alt={dev.name} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 rounded-full bg-white/8" />
               </div>
-
               <div className="text-center">
                 <p className="font-bold text-gray-900 text-sm">{dev.name}</p>
                 <p className="text-orange-500 text-xs font-medium flex items-center justify-center gap-1">

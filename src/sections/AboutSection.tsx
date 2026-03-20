@@ -19,12 +19,12 @@ export default function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="w-full md:w-[60%] flex justify-center md:justify-end md:translate-x-8 items-center"
+            className="w-full md:w-[60%] flex justify-center items-center md:justify-end md:translate-x-8"
           >
             <img
               src={expoIllustration}
               alt="Innovation Expo illustration"
-              className="block mx-auto w-[80%] max-w-[260px] sm:max-w-sm md:w-full md:max-w-3xl object-contain select-none"
+              className="block mx-auto w-[60%] max-w-[220px] sm:max-w-[260px] md:w-full md:max-w-3xl object-contain select-none"
             />
           </motion.div>
 
@@ -59,7 +59,7 @@ Participants present directly to a panel of expert industry judges, receive cons
               <span className="font-bold text-gray-900">INNOVATION</span>
             </p>
 
-            <p className="text-lg text-gray-600 leading-relaxed mb-5">Under the theme of “Innovation”, it brings together creativity, technology, and problem-solving into one powerful experience.
+            <p className="text-lg text-gray-600 leading-relaxed mb-5">Under the theme of "Innovation", it brings together creativity, technology, and problem-solving into one powerful experience.
  
 </p>
 
