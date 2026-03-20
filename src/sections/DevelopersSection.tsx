@@ -26,7 +26,7 @@ const developers = [
     link: "https://www.linkedin.com/in/paras-jain02",
   },
   {
-    name: "Akansha Yadav",
+    name: "Akanksha Yadav",
     image: akanshaImg,
     icon: <FaLinkedin className="w-5 h-5" />,
     link: "https://www.linkedin.com/in/ak8nksha/",
