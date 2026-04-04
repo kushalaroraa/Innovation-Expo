@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import expoIllustration from "../assets/a5307c74891f3fc356578c887ff68cb037002558.png";
+import expoIllustration from "../assets/Aboutphoto.png";
 
 export default function AboutSection() {
   return (
@@ -19,12 +19,12 @@ export default function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="w-full md:w-[60%] flex justify-center items-center md:justify-end md:translate-x-8"
+            className="w-full md:w-[60%] flex justify-center items-center md:justify-start md:-translate-x-6"
           >
             <img
               src={expoIllustration}
               alt="Innovation Expo illustration"
-              className="block mx-auto w-[60%] max-w-[220px] sm:max-w-[260px] md:w-full md:max-w-3xl object-contain select-none"
+              className="block w-[75%] sm:w-[65%] md:w-[75%] lg:w-[70%] max-w-[220px] sm:max-w-[260px] md:max-w-[460px] lg:max-w-[520px] object-contain object-center select-none"
             />
           </motion.div>
 

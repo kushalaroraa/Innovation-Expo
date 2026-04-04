@@ -30,15 +30,15 @@ export default function RewardSection({ fadeInUp }) {
                 <h2 className="text-4xl md:text-4xl font-black mb-6 leading-tight text-gray-900">
                   TOP PROJECTS WILL BE REWARDED
                 </h2>
-                <p className="text-xl md:text-xl font-semibold text-gray-700">
-                  All Participants Receive: Certificate of participation, Direct exposure to industry professionals
+                <h3 className="text-xl font-bold mb-1 text-gray-900">All Participants Receive:</h3>
+                <p className="text-gray-600 text-md leading-relaxed mb-2">
+                   Certificate of participation, Direct exposure to industry professionals
                   & Valuable networking with innovators and mentors
                 </p>
-                <p className="text-xl md:text-xl font-semibold text-gray-700 mt-4">
-
-Winning Teams Receive: Trophies and exciting goodies/prizes, Special recognition for outstanding innovation
-& Featured exposure within the IEEE WIE community 
-
+                <h3 className="text-xl font-bold mb-1 text-gray-900">Winning Teams Receive:</h3>
+                 <p className="text-gray-600 text-md leading-relaxed mb-2">
+                   Trophies and exciting goodies/prizes, Special recognition for outstanding innovation
+                  & Featured exposure within the IEEE WIE community 
                 </p>
               </div>
             </motion.div>
